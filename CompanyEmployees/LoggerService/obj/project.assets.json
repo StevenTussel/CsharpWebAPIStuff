@@ -11,19 +11,6 @@
         "runtime": {
           "bin/placeholder/Contracts.dll": {}
         }
-      },
-      "LoggerService/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Contracts": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/LoggerService.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/LoggerService.dll": {}
-        }
       }
     }
   },
@@ -32,16 +19,11 @@
       "type": "project",
       "path": "../Contracts/Contracts.csproj",
       "msbuildProject": "../Contracts/Contracts.csproj"
-    },
-    "LoggerService/1.0.0": {
-      "type": "project",
-      "path": "../LoggerService/LoggerService.csproj",
-      "msbuildProject": "../LoggerService/LoggerService.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "LoggerService >= 1.0.0"
+      "Contracts >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -50,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\livin\\Desktop\\CsharpWebAPIStuff\\CompanyEmployees\\CompanyEmployees\\CompanyEmployees.csproj",
-      "projectName": "CompanyEmployees",
-      "projectPath": "C:\\Users\\livin\\Desktop\\CsharpWebAPIStuff\\CompanyEmployees\\CompanyEmployees\\CompanyEmployees.csproj",
+      "projectUniqueName": "C:\\Users\\livin\\Desktop\\CsharpWebAPIStuff\\CompanyEmployees\\LoggerService\\LoggerService.csproj",
+      "projectName": "LoggerService",
+      "projectPath": "C:\\Users\\livin\\Desktop\\CsharpWebAPIStuff\\CompanyEmployees\\LoggerService\\LoggerService.csproj",
       "packagesPath": "C:\\Users\\livin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\livin\\Desktop\\CsharpWebAPIStuff\\CompanyEmployees\\CompanyEmployees\\obj\\",
+      "outputPath": "C:\\Users\\livin\\Desktop\\CsharpWebAPIStuff\\CompanyEmployees\\LoggerService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\livin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -71,8 +53,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\livin\\Desktop\\CsharpWebAPIStuff\\CompanyEmployees\\LoggerService\\LoggerService.csproj": {
-              "projectPath": "C:\\Users\\livin\\Desktop\\CsharpWebAPIStuff\\CompanyEmployees\\LoggerService\\LoggerService.csproj"
+            "C:\\Users\\livin\\Desktop\\CsharpWebAPIStuff\\CompanyEmployees\\Contracts\\Contracts.csproj": {
+              "projectPath": "C:\\Users\\livin\\Desktop\\CsharpWebAPIStuff\\CompanyEmployees\\Contracts\\Contracts.csproj"
             }
           }
         }
@@ -98,9 +80,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
