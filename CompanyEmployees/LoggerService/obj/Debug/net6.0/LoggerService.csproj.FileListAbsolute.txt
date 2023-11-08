@@ -1,0 +1,15 @@
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\LoggerService\bin\Debug\net6.0\LoggerService.deps.json
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\LoggerService\bin\Debug\net6.0\LoggerService.dll
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\LoggerService\bin\Debug\net6.0\LoggerService.pdb
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\LoggerService\bin\Debug\net6.0\Contracts.dll
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\LoggerService\bin\Debug\net6.0\Contracts.pdb
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\LoggerService\obj\Debug\net6.0\LoggerService.csproj.AssemblyReference.cache
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\LoggerService\obj\Debug\net6.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\LoggerService\obj\Debug\net6.0\LoggerService.AssemblyInfoInputs.cache
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\LoggerService\obj\Debug\net6.0\LoggerService.AssemblyInfo.cs
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\LoggerService\obj\Debug\net6.0\LoggerService.csproj.CoreCompileInputs.cache
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\LoggerService\obj\Debug\net6.0\LoggerService.csproj.CopyComplete
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\LoggerService\obj\Debug\net6.0\LoggerService.dll
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\LoggerService\obj\Debug\net6.0\refint\LoggerService.dll
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\LoggerService\obj\Debug\net6.0\LoggerService.pdb
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\LoggerService\obj\Debug\net6.0\ref\LoggerService.dll
