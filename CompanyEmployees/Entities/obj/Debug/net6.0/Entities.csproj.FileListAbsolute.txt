@@ -2,3 +2,10 @@ C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Entities\obj\Debug\net
 C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
 C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
 C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Entities\bin\Debug\net6.0\Entities.deps.json
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Entities\bin\Debug\net6.0\Entities.dll
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Entities\bin\Debug\net6.0\Entities.pdb
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Entities\obj\Debug\net6.0\Entities.dll
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Entities\obj\Debug\net6.0\refint\Entities.dll
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Entities\obj\Debug\net6.0\Entities.pdb
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Entities\obj\Debug\net6.0\ref\Entities.dll
