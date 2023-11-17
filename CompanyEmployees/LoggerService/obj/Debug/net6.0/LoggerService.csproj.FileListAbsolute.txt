@@ -13,3 +13,5 @@ C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\LoggerService\obj\Debu
 C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\LoggerService\obj\Debug\net6.0\refint\LoggerService.dll
 C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\LoggerService\obj\Debug\net6.0\LoggerService.pdb
 C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\LoggerService\obj\Debug\net6.0\ref\LoggerService.dll
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\LoggerService\bin\Debug\net6.0\Entities.dll
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\LoggerService\bin\Debug\net6.0\Entities.pdb
