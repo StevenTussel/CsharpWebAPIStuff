@@ -1,8 +1,6 @@
 C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Service.Contracts2\bin\Debug\net6.0\Service.Contracts.deps.json
 C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Service.Contracts2\bin\Debug\net6.0\Service.Contracts.dll
 C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Service.Contracts2\bin\Debug\net6.0\Service.Contracts.pdb
-C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Service.Contracts2\bin\Debug\net6.0\Entities.dll
-C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Service.Contracts2\bin\Debug\net6.0\Entities.pdb
 C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Service.Contracts2\obj\Debug\net6.0\Service.Contracts.csproj.AssemblyReference.cache
 C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Service.Contracts2\obj\Debug\net6.0\Service.Contracts.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Service.Contracts2\obj\Debug\net6.0\Service.Contracts.AssemblyInfoInputs.cache
@@ -13,3 +11,5 @@ C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Service.Contracts2\obj
 C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Service.Contracts2\obj\Debug\net6.0\refint\Service.Contracts.dll
 C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Service.Contracts2\obj\Debug\net6.0\Service.Contracts.pdb
 C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Service.Contracts2\obj\Debug\net6.0\ref\Service.Contracts.dll
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Service.Contracts2\bin\Debug\net6.0\Shared.dll
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Service.Contracts2\bin\Debug\net6.0\Shared.pdb

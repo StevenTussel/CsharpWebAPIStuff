@@ -99,3 +99,7 @@ C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\CompanyEmployees\bin\D
 C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\CompanyEmployees\bin\Debug\net6.0\Service.pdb
 C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\CompanyEmployees\bin\Debug\net6.0\Service.Contracts.pdb
 C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\CompanyEmployees\obj\Debug\net6.0\CompanyEmployees.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\CompanyEmployees\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\CompanyEmployees\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\CompanyEmployees\bin\Debug\net6.0\Shared.dll
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\CompanyEmployees\bin\Debug\net6.0\Shared.pdb
