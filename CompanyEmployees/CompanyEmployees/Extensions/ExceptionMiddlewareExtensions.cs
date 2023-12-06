@@ -22,6 +22,7 @@ namespace CompanyEmployees.Extensions
                         context.Response.StatusCode = contextFeature.Error switch
                         {
                             NotFoundException => StatusCodes.Status404NotFound,
+                            BadRequestException => StatusCodes.Status400BadRequest, // ConfigureExceptionHandler class????? if error, check page 123
                             _ => StatusCodes.Status500InternalServerError
                         };
                         logger.LogError($"Something went wrong: {contextFeature.Error}");
