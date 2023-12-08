@@ -15,3 +15,5 @@ C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\CompanyEmployees.Prese
 C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\CompanyEmployees.Presentation\obj\Debug\net6.0\ref\CompanyEmployees.Presentation.dll
 C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\CompanyEmployees.Presentation\bin\Debug\net6.0\Shared.dll
 C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\CompanyEmployees.Presentation\bin\Debug\net6.0\Shared.pdb
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\CompanyEmployees.Presentation\bin\Debug\net6.0\Entities.dll
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\CompanyEmployees.Presentation\bin\Debug\net6.0\Entities.pdb
