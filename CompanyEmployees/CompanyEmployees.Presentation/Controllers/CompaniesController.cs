@@ -52,6 +52,7 @@ namespace CompanyEmployees.Presentation.Controllers
         }
 
         [HttpPost]
+        
         public async Task<IActionResult> CreateCompany([FromBody] CompanyForCreationDto company)
         {
             if (company is null)
@@ -82,6 +83,7 @@ namespace CompanyEmployees.Presentation.Controllers
 
 
         [HttpPut("{id:guid}")]
+        
         public async Task<IActionResult> UpdateCompany(Guid id, [FromBody] CompanyForUpdateDto company)
         {
             if (company is null)
