@@ -197,6 +197,9 @@
             "projectReferences": {
               "C:\\Users\\livin\\Desktop\\CsharpWebAPIStuff\\CompanyEmployees\\Entities\\Entities.csproj": {
                 "projectPath": "C:\\Users\\livin\\Desktop\\CsharpWebAPIStuff\\CompanyEmployees\\Entities\\Entities.csproj"
+              },
+              "C:\\Users\\livin\\Desktop\\CsharpWebAPIStuff\\CompanyEmployees\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\livin\\Desktop\\CsharpWebAPIStuff\\CompanyEmployees\\Shared\\Shared.csproj"
               }
             }
           }
