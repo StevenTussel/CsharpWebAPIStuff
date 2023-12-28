@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ttSlZmKXnx1scn7bS3WvtuyR2gcpv2n4KQXplBEOZ2t0U4N09kVquy7fMMqyTS+BtYg/x2u2EH6YSB+oQ5oeaw==",
+  "dgSpecHash": "tv7kr3cFUduw2l0fBPmRH9aIynC3Se/anFa7ABc6vqwW10vz7zdJw+mSaWl84RWDEJUbchf1eGfBXUvvx9n04g==",
   "success": true,
   "projectFilePath": "C:\\Users\\livin\\Desktop\\CsharpWebAPIStuff\\CompanyEmployees\\Repository\\Repository.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "C:\\Users\\livin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\livin\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\livin\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\livin\\.nuget\\packages\\system.linq.dynamic.core\\1.3.7\\system.linq.dynamic.core.1.3.7.nupkg.sha512",
     "C:\\Users\\livin\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
