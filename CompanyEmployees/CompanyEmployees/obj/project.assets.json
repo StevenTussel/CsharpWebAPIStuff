@@ -2807,6 +2807,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Entities": "1.0.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Shared": "1.0.0"
         },
         "compile": {
@@ -2819,6 +2820,10 @@
       "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
+          "Shared": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Entities.dll": {}
         },

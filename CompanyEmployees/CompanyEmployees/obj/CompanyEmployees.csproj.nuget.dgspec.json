@@ -213,6 +213,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -256,7 +262,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\livin\\Desktop\\CsharpWebAPIStuff\\CompanyEmployees\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\livin\\Desktop\\CsharpWebAPIStuff\\CompanyEmployees\\Shared\\Shared.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -268,6 +278,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
