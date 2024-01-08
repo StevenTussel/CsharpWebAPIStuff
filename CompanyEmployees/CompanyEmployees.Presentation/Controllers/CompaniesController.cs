@@ -23,7 +23,7 @@ namespace CompanyEmployees.Presentation.Controllers
         public CompaniesController(IServiceManager service) => _service = service;
 
 
-        [HttpGet]
+        [HttpGet(Name = "GetCompanies")]
         public async Task<IActionResult> GetCompanies()
         {
             var companies = await
@@ -51,8 +51,7 @@ namespace CompanyEmployees.Presentation.Controllers
             return Ok(companies);
         }
 
-        [HttpPost]
-        
+        [HttpPost(Name = "CreateCompany")]
         public async Task<IActionResult> CreateCompany([FromBody] CompanyForCreationDto company)
         {
             if (company is null)
@@ -99,5 +98,7 @@ namespace CompanyEmployees.Presentation.Controllers
             Response.Headers.Add("Allow", "GET, OPTIONS, POST");
             return Ok();
         }
+
+
     }
 }
