@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "U1Mxtlke+Yl7QFS3HLnzYY8BHINhqeq7ivSlkgarutWClrXM2R+Ni8lbcEur6+RAKdY8PlTU/EpbeJBi1/V1ug==",
+  "dgSpecHash": "w3ItMe7ygMC6MdKkUli/7n2KQAJFKLhBcBoAGJSEPQivVD9BJHubfQFbGYxsyZE1pPDfOp/ZXr19hUEm6/oC6w==",
   "success": true,
   "projectFilePath": "C:\\Users\\livin\\Desktop\\CsharpWebAPIStuff\\CompanyEmployees\\CompanyEmployees\\CompanyEmployees.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\livin\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\livin\\.nuget\\packages\\dotnetenv\\2.5.0\\dotnetenv.2.5.0.nupkg.sha512",
     "C:\\Users\\livin\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\livin\\.nuget\\packages\\marvin.cache.headers\\7.0.0\\marvin.cache.headers.7.0.0.nupkg.sha512",
     "C:\\Users\\livin\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\livin\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "C:\\Users\\livin\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
