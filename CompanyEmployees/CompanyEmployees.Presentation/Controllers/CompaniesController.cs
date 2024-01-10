@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using System.Xml.Linq;
 using CompanyEmployees.Presentation.ModelBinders;
 using Marvin.Cache.Headers;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json.Linq;
 using Service.Contracts;
@@ -28,6 +29,7 @@ namespace CompanyEmployees.Presentation.Controllers
 
         [HttpGet(Name = "GetCompanies")]
         [ResponseCache(Duration = 60)]
+        [Authorize(Roles = "Manager")]
         public async Task<IActionResult> GetCompanies()
         {
             var companies = await

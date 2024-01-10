@@ -28,6 +28,9 @@ builder.Services.ConfigureSqlContext(builder.Configuration);
 builder.Services.AddMemoryCache();
 builder.Services.ConfigureRateLimitingOptions();
 builder.Services.AddHttpContextAccessor();
+builder.Services.AddAuthentication();
+builder.Services.ConfigureIdentity();
+builder.Services.ConfigureJWT(builder.Configuration);
 
 //To continue, let’s register the DataShaper class in the IServiceCollection in the Program class: ????????
 builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
@@ -92,7 +95,7 @@ app.UseCors("CorsPolicy");
 app.UseResponseCaching();
 app.UseHttpCacheHeaders();
 
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

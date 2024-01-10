@@ -9,3 +9,7 @@ C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Entities\obj\Debug\net
 C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Entities\obj\Debug\net6.0\refint\Entities.dll
 C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Entities\obj\Debug\net6.0\Entities.pdb
 C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Entities\obj\Debug\net6.0\ref\Entities.dll
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Entities\bin\Debug\net6.0\Shared.dll
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Entities\bin\Debug\net6.0\Shared.pdb
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Entities\obj\Debug\net6.0\Entities.csproj.CopyComplete

@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Entities.Model;
+using Entities.Models;
 using Shared.DataTransferObjects;
 
 namespace CompanyEmployees
@@ -20,6 +21,8 @@ namespace CompanyEmployees
             CreateMap<EmployeeForUpdateDto, Employee>().ReverseMap();
 
             CreateMap<CompanyForUpdateDto, Company>();
+
+            CreateMap<UserForRegistrationDto, User>();
         }
     }
 }
