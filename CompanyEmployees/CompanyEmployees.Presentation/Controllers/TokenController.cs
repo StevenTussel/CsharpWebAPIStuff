@@ -17,11 +17,6 @@ namespace CompanyEmployees.Presentation.Controllers
         public TokenController(IServiceManager service) => _service = service;
 
 
-
-
-
-
-
         [HttpPost("refresh")]
         [ServiceFilter(typeof(ValidationFilterAttribute))]
         public async Task<IActionResult> Refresh([FromBody] TokenDto tokenDto)
