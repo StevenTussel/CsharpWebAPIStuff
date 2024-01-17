@@ -33,7 +33,7 @@ builder.Services.ConfigureIdentity();
 builder.Services.ConfigureJWT(builder.Configuration);
 builder.Services.AddJwtConfiguration(builder.Configuration);
 builder.Services.ConfigureSwagger();
-
+builder.Services.AddScoped<ValidateMediaTypeAttribute>();
 //To continue, let’s register the DataShaper class in the IServiceCollection in the Program class: ????????
 builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
 
@@ -64,7 +64,7 @@ builder.Services.AddControllers(config =>
 .AddApplicationPart(typeof(CompanyEmployees.Presentation.AssemblyReference).Assembly);
 
 builder.Services.AddCustomMediaTypes();
-builder.Services.AddScoped<ValidateMediaTypeAttribute>();
+
 builder.Services.AddScoped<IEmployeeLinks, EmployeeLinks>();
 
 builder.Services.AddAutoMapper(typeof(Program));

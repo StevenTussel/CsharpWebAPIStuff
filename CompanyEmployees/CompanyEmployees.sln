@@ -21,11 +21,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service.Contracts", "Servic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{8E8B9EA6-7E34-436B-B8B3-66C89F774A0A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ActionFilters", "ActionFilters", "{0DFF753A-B7CF-418C-84DD-EB51A87EE7AD}"
-	ProjectSection(SolutionItems) = preProject
-		ValidationFilterAttribute.cs = ValidationFilterAttribute.cs
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

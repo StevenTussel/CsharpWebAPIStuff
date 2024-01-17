@@ -17,15 +17,15 @@ namespace CompanyEmployees.Presentation.Controllers
         private readonly LinkGenerator _linkGenerator;
         public RootController(LinkGenerator linkGenerator) => _linkGenerator =
         linkGenerator;
-    }
 
 
-    [HttpGet(Name = "GetRoot")]
-    public IActionResult GetRoot([FromHeader(Name = "Accept")] string mediaType)
-    {
-        if (mediaType.Contains("application/vnd.codemaze.apiroot"))
+
+        [HttpGet(Name = "GetRoot")]
+        public IActionResult GetRoot([FromHeader(Name = "Accept")] string mediaType)
         {
-            var list = new List<Link>
+            if (mediaType.Contains("application/vnd.codemaze.apiroot"))
+            {
+                var list = new List<Link>
         {
             new Link
             {
@@ -47,13 +47,13 @@ namespace CompanyEmployees.Presentation.Controllers
             }
         };
 
-            return Ok(list);
+                return Ok(list);
+            }
+
+            return NoContent();
         }
 
-        return NoContent();
+
     }
-
-
-
 
 }
