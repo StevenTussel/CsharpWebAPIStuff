@@ -114,10 +114,10 @@ namespace Service
             var employeeToPatch = _mapper.Map<EmployeeForUpdateDto>(employeeDb);
             return (employeeToPatch: employeeToPatch, employeeEntity: employeeDb);
         }
-        public void SaveChangesForPatch(EmployeeForUpdateDto employeeToPatch, Employee employeeEntity)
+        public async Task SaveChangesForPatchAsync(EmployeeForUpdateDto employeeToPatch, Employee employeeEntity)
         {
             _mapper.Map(employeeToPatch, employeeEntity);
-            _repository.SaveAsync();
+            await _repository.SaveAsync();
         }
     }
 }
