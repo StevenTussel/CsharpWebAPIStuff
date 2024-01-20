@@ -15,3 +15,5 @@ C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Repository\obj\Debug\n
 C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Repository\obj\Debug\net6.0\ref\Repository.dll
 C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Repository\bin\Debug\net6.0\Contracts.dll
 C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Repository\bin\Debug\net6.0\Contracts.pdb
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Repository\bin\Debug\net6.0\Shared.dll
+C:\Users\livin\Desktop\CsharpWebAPIStuff\CompanyEmployees\Repository\bin\Debug\net6.0\Shared.pdb

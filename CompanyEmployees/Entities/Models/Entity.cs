@@ -9,10 +9,13 @@ using System.Xml;
 namespace Entities.Models
 {
     // not sure what to put here since source code is not availible, but ill try my best
-    public class Entity { 
+    public class Entity {
+        public void Add(string v, List<Link> employeeLinks)
+        {
+            throw new NotImplementedException();
+        }
 
-
-    private void WriteLinksToXml(string key, object value, XmlWriter writer)
+        private void WriteLinksToXml(string key, object value, XmlWriter writer)
     {
         writer.WriteStartElement(key);
         if (value.GetType() == typeof(List<Link>))

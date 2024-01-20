@@ -10,8 +10,7 @@ namespace CompanyEmployees.Utility
     {
         private readonly LinkGenerator _linkGenerator;
         private readonly IDataShaper<EmployeeDto> _dataShaper;
-        public EmployeeLinks(LinkGenerator linkGenerator, IDataShaper<EmployeeDto>
-        dataShaper)
+        public EmployeeLinks(LinkGenerator linkGenerator, IDataShaper<EmployeeDto> dataShaper)
         {
             _linkGenerator = linkGenerator;
             _dataShaper = dataShaper;
@@ -28,14 +27,21 @@ namespace CompanyEmployees.Utility
          
         }
 
-        private List<Entity> ShapeData(IEnumerable<EmployeeDto> employeesDto, string fields) => _dataShaper.ShapeData(employeesDto, fields).Select(e => e.Entity).ToList();
+        private List<Entity> ShapeData(IEnumerable<EmployeeDto> employeesDto, string fields)
+        {
+            // Assuming _dataShaper.ShapeData returns DataShapeResult
+            return _dataShaper.ShapeData(employeesDto, fields)
+                              .Select(data => new Entity())  // Replace "Entity" with the actual type you want to instantiate
+                              .ToList();
+        }
 
 
         private bool ShouldGenerateLinks(HttpContext httpContext)
         {
             var mediaType = (MediaTypeHeaderValue)httpContext.Items["AcceptHeaderMediaType"];
-            return mediaType.SubTypeWithoutSuffix.EndsWith("hateoas",
-            StringComparison.InvariantCultureIgnoreCase);
+
+            // Check if the media type string ends with "hateoas" (case-insensitive)
+            return mediaType?.MediaType?.EndsWith("hateoas", StringComparison.InvariantCultureIgnoreCase) ?? false;
         }
         private LinkResponse ReturnShapedEmployees(List<Entity> shapedEmployees) =>
         new LinkResponse { ShapedEntities = shapedEmployees };
@@ -46,8 +52,7 @@ namespace CompanyEmployees.Utility
             var employeeDtoList = employeesDto.ToList();
             for (var index = 0; index < employeeDtoList.Count(); index++)
             {
-                var employeeLinks = CreateLinksForEmployee(httpContext, companyId,
-                employeeDtoList[index].Id, fields);
+                var employeeLinks = CreateLinksForEmployee(httpContext, companyId, employeeDtoList[index].Id, fields);
                 shapedEmployees[index].Add("Links", employeeLinks);
             }
             var employeeCollection = new LinkCollectionWrapper<Entity>(shapedEmployees);
