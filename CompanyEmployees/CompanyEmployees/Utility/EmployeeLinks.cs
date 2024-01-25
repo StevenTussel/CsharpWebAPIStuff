@@ -43,9 +43,7 @@ namespace CompanyEmployees.Utility
             // Check if the media type string ends with "hateoas" (case-insensitive)
             return mediaType?.MediaType?.EndsWith("hateoas", StringComparison.InvariantCultureIgnoreCase) ?? false;
         }
-        private LinkResponse ReturnShapedEmployees(List<Entity> shapedEmployees) =>
-        new LinkResponse { ShapedEntities = shapedEmployees };
-
+        private LinkResponse ReturnShapedEmployees(List<Entity> shapedEmployees) => new LinkResponse { ShapedEntities = shapedEmployees };
 
         private LinkResponse ReturnLinkdedEmployees(IEnumerable<EmployeeDto> employeesDto, string fields, Guid companyId, HttpContext httpContext, List<Entity> shapedEmployees)
         {
@@ -84,8 +82,7 @@ namespace CompanyEmployees.Utility
                         return links;
 
             }
-        private LinkCollectionWrapper<Entity> CreateLinksForEmployees(HttpContext httpContext,
-        LinkCollectionWrapper<Entity> employeesWrapper)
+        private LinkCollectionWrapper<Entity> CreateLinksForEmployees(HttpContext httpContext, LinkCollectionWrapper<Entity> employeesWrapper)
         {
             employeesWrapper.Links.Add(new Link(_linkGenerator.GetUriByAction(httpContext,
             "GetEmployeesForCompany", values: new { }),
